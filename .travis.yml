@@ -15,7 +15,7 @@ env:
 before_script:
   - git clone --quiet https://github.com/ayemos/ayemos.me.git build
   - pushd build
-  - git checkout -b gh-page
+  - git checkout -b gh-pages
   - popd
 after_success:
   - cd build
